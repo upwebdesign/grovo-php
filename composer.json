@@ -1,5 +1,5 @@
 {
-  "name": "Grovo API Client (PHP)",
+  "name": "upwebdesign/grovo-php",
   "type": "library",
   "description": "A Simple GuzzleHTTP Client for the Grovo Partner API.",
   "keywords": ["grovo", "api", "client", "php"],
