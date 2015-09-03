@@ -1,0 +1,29 @@
+{
+  "name": "Grovo API Client (PHP)",
+  "type": "library",
+  "description": "A Simple GuzzleHTTP Client for the Grovo Partner API.",
+  "keywords": ["grovo", "api", "client", "php"],
+  "homepage": "https://www.grovo.com",
+  "license": "Commercial",
+  "authors": [
+    {
+      "name": "Yitzchok Willroth",
+      "email": "yitz@grovo.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "guzzlehttp/guzzle": "^6.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grovo\\Api\\Client\\": "src/"
+    }
+  },
+  "minimum-stability": "stable",
+  "extra": {
+    "branch-alias": {
+      "dev-master": "1.0-dev"
+    }
+  }
+}
