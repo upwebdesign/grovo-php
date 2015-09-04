@@ -19,6 +19,15 @@ trait Users
      * @param string $id
      * @return array
      */
+    public function getUsers($page = 1)
+    {
+        return json_decode($this->get("/users/$page"), true);
+    }
+
+    /**
+     * @param string $id
+     * @return array
+     */
     public function showUser($id)
     {
         return json_decode($this->get("/users/$id"), true);
