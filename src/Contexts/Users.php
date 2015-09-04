@@ -21,7 +21,7 @@ trait Users
      */
     public function getUsers($page = 1)
     {
-        return json_decode($this->get("/users/$page"), true);
+        return json_decode($this->get("/users?page=$page"), true);
     }
 
     /**
