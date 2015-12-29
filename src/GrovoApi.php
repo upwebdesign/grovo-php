@@ -6,6 +6,7 @@
 namespace Grovo\Api\Client;
 
 use Grovo\Api\Client\Contexts\Users;
+use Grovo\Api\Client\Contexts\Assignments;
 use GuzzleHttp\Client as HttpClient;
 
 /**
@@ -19,7 +20,7 @@ use GuzzleHttp\Client as HttpClient;
  */
 final class GrovoApi
 {
-    use Users;
+    use Users, Assignments;
 
     private $apiUrl = 'https://api-sandbox.grovo.com';
     private $authUrl= 'https://auth-sandbox.grovo.com';
