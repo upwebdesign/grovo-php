@@ -13,7 +13,7 @@ namespace Grovo\Api\Client\Contexts;
  * @version 1.0
  * @author Yitzchok Willroth (yitz@grovo.com)
  */
-trait Users
+trait Assignments
 {
     /**
      * @param string $id
