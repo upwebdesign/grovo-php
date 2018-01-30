@@ -4,7 +4,7 @@
   "description": "A Simple GuzzleHTTP Client for the Grovo Partner API.",
   "keywords": ["grovo", "api", "client", "php"],
   "homepage": "https://www.grovo.com",
-  "license": "Commercial",
+  "license": "MIT",
   "authors": [
     {
       "name": "Yitzchok Willroth",
